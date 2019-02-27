@@ -51,7 +51,7 @@ public class Main {
         for (int i = 0; i < SIZE; i++) {
             for (int j = 0; j < SIZE; j++) {
                 int randomNum = ThreadLocalRandom.current().nextInt(1, 51 + 1);
-                if (randomNum < 40) {
+                if (randomNum < 35) {
                     maze[i][j] = 0;
                 } else {
                     maze[i][j] = 1;
@@ -59,6 +59,7 @@ public class Main {
 
             }
         }
+        maze[0][0]=0;
         return maze;
     }
 
