@@ -17,9 +17,6 @@ public class Main {
 
 
     public static void main(String[] args) {
-	// write your code here
-
-
 
         Scanner in = new Scanner(System.in);
         System.out.print("N? : ");
@@ -45,16 +42,9 @@ public class Main {
         }
 
         System.out.print("\nSize: "+SIZE+"\n");
-
-
-
     }
 
-
-
-
-
-
+    //Backtracking part-start
     private static int[][] generate_maze(int SIZE) {
         int[][] maze = new int[SIZE][SIZE];
 
@@ -148,5 +138,6 @@ public class Main {
         return false;
 
     }
+    //Backtracking part-end
 }
 
