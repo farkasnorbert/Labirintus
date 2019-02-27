@@ -22,6 +22,7 @@ public class Main {
 
 
         Scanner in = new Scanner(System.in);
+        System.out.print("N? : ");
         SIZE = in.nextInt();
 
 
